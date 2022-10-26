@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: Outfit;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.nav {
+  background-color: rgb(235, 65, 138);
+  height: auto;
+  flex-basis: 15vw;
+  padding: 3vh;
+  color: white;
+}
+
+.container-top {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 15vh;
+  width: 85vw;
+  color: white;
+  background-color: rgb(0, 0, 55);
+  padding: 3vh;
+}
+.arfoas-conatiner {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.container-middle {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 70vw;
+}
+.article {
+  background-color: white;
+  flex-grow: 1;
+  align-self: stretch;
+  padding: 3vh;
+}
+
+footer {
+  height: 15vh;
+  padding: 3vh;
+  color: white;
+  background-color: rgb(0, 0, 55);
+  padding: 3vh;
+}
+
+.aside {
+  background-color: rgb(60, 0, 128);
+  flex-basis: 15vw;
+  padding: 3vh;
+  color: white;
+}
